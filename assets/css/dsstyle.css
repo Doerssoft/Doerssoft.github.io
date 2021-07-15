@@ -410,6 +410,25 @@ input {
     padding: 124px 12px 124px 12px;
 }
 
+@media (max-width:1400px){
+    .left-col {
+        padding: 74px 12px 124px 12px;
+    }
+}
+
+@media (max-width:767px){
+    .left-col {
+        padding: 100px 12px 124px 12px;
+    }
+}
+
+@media (max-width:450px){
+    .left-col {
+        padding: 100px 24px 124px 24px;
+    }
+}
+
+
 .left-col h1 {
     font-weight: bold;
     color: #141b2e;
