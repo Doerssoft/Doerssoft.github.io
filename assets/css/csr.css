@@ -1,0 +1,57 @@
+.csr-image{
+    width:  64% !important;
+}
+
+#csr-details{
+    position: relative;
+    top: 125px;
+    padding: 54px 0px;
+}
+
+.csr-x{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #141b2e;
+}
+
+.span-x{
+    font-weight: bolder;
+    margin:0 12px;
+    color: green;
+}
+
+.CFC{
+    color:#0077b5;
+}
+.my-hr{
+    color: #0151cc;
+}
+
+.csr-linked-img{
+    width: 100%;
+}
+
+.csr-linked-img img{
+    width: 100%;
+}
+
+.csr_right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.csr_right p{
+    color: #141b2e;
+    font-weight:bold;
+    border-bottom: 2px solid #0151cc;
+}
+
+@media (max-width: 767px) {
+    #csr-details {
+        position: relative;
+        top: 125px;
+        padding: 24px 12px;
+    }
+}
