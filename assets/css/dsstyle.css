@@ -528,6 +528,17 @@ div.wave {
     div.wave {
         position: absolute;
         /* top: -20%; */
+        bottom: -21%;
+        /* display: none; */
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px) {
+    div.wave {
+        position: absolute;
+        /* top: -20%; */
         bottom: -2%;
         /* display: none; */
         left: 0;
