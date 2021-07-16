@@ -96,7 +96,7 @@ a {
 }
 
 nav ul li a:hover {
-    color: #e49e06;
+    color: #0151cc;
     transition: 0.84567890s all;
     /* background: #ffffff; */
 }
@@ -165,7 +165,7 @@ nav ul li a:hover {
 }
 
 .nav-item a:hover {
-    color: #e49e06;
+    color: #0151cc;
     transition: 0.856s all;
 }
 
