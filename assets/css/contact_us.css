@@ -17,7 +17,7 @@
 
 iframe{
     width: 100%;
-    filter: grayscale(0.56)
+    filter: grayscale(1)
 }
 
 .contact-form form{
