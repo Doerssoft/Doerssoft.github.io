@@ -407,7 +407,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding: 124px 12px 124px 12px;
 }
 
