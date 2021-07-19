@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="assets/css/dsstyle.css">
+    <link rel="stylesheet" href="assets/css/careers.css">
     <link rel="stylesheet" href="assets/css/our_clients.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="assets/js/api.js"></script>
     <link rel="shortcut icon" href="assets/img/ds_logo.png" type="image/png" size="128x128">
-    <title>DoerSoft | Our Cients</title>
+    <title>DoerSoft | Careers</title>
 </head>
 
 <body>
@@ -32,12 +32,12 @@
                         <span class="bar"></span>
                     </div>
                     <ul class="nav no-search">
-                        <li class="nav-item"><a href="index.html" class="active">Home</a></li>
-                        <li class="nav-item"><a href="services.html">Services</a></li>
-                        <li class="nav-item"><a href="careers.html">Careers</a></li>
-                        <li class="nav-item"><a href="our_clients.html">Our Clients</a></li>
-                        <li class="nav-item"><a href="our_csr.html">Our CSR</a></li>
-                        <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+                        <li class="nav-item"><a href="index.php" class="active">Home</a></li>
+                        <li class="nav-item"><a href="services.php">Services</a></li>
+                        <li class="nav-item"><a href="careers.php">Careers</a></li>
+                        <li class="nav-item"><a href="our_clients.php">Our Clients</a></li>
+                        <li class="nav-item"><a href="our_csr.php">Our CSR</a></li>
+                        <li class="nav-item"><a href="contact_us.php">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,10 +46,9 @@
     <section id="hs_hero">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 left-col">
-                    <h1>OUR <span class="white"> CLIENTS</span></h1>
-                    <p class="subhead">In the new world, the companies that build, learn, and evolve the fastest will
-                        win.
+                <div class="col-12 left-col text-center">
+                    <h1 style="margin: 0 auto;">Code for Change</h1>
+                    <p class="subhead">Non - Profit Organization
                         <br><br>
                         Our people and processes are built for speed of iteration and innovation. We use world-class
                         product engineering and lean methodologies to transform businesses, launch startups, leverage
@@ -59,82 +58,73 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 right-col">
-                    <img src="./assets/img/services.svg" alt="">
-                </div>
+            </div>
+            <div class="client-detail-logo">
+                <img src="/assets/img/cfc.png" alt="">
             </div>
 
-            <div class="wave">
-                <img src="./assets/img/curve.png" alt="">
-            </div>
+            <!-- <div class="wave mb-5">
+                <img src="./assets/img/one-curve.png" alt="">
+            </div> -->
         </div>
     </section>
 
-
-    <section id="our_clients">
-        <div class="container">
-            <div id="clients_row" class="row">
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/ds_logo.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/cfc.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/it-olympiad-nepal.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/folio-logo.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/vos.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 mt-my">
-                    <a href="client_detail.html">
-                        <div class="partners-card">
-                            <img src="./assets/img/tu.png" alt="our_clients">
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-           
-        </div>
-    </section>
-
-    <section id="be_smart">
+    <section id="job-details">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                        Be Smart <span class="service-blue-span">Contact Us</span>
+                    <h2 class="jd-title">Website Development</h2>
+
+                    <ul class="jd-ul">
+                        <li>
+                            Service Type: Web Development
+                        </li>
+                        <li>
+                            View on : <a href="#">https://codeforchangenepal.com</a>
+                        </li>
+                    </ul>
+
+                    <hr class="my-hr">
+
+                    <h2>How we helped <a href="#"> Code for Change </a> through our Services</h2>
+                    <p>DoersSoft Pvt. Ltd.  is one of the fastest-growing remittance companies in Nepal. Our existence
+                        as a company revolves around offering a diversified model of world-class remittance services to
+                        Nepalese around the world.
+
+                        Established in the year 2019 and licensed by Nepal Rastra Bank under foreign exchange
+                        regulation, eSewa Money Transfer strives to deliver excellent money transfer services from all
+                        across the globe to your loved ones.
+
+                        DoersSoft Pvt. Ltd.  is one of the fastest-growing remittance companies in Nepal. Our existence
+                        as a company revolves around offering a diversified model of world-class remittance services to
+                        Nepalese around the world.
+
+                        Established in the year 2019 and licensed by Nepal Rastra Bank under foreign exchange
+                        regulation, eSewa Money Transfer strives to deliver excellent money transfer services from all
+                        across the globe to your loved ones.
+
+                        DoersSoft Pvt. Ltd.  is one of the fastest-growing remittance companies in Nepal. Our existence
+                        as a company revolves around offering a diversified model of world-class remittance services to
+                        Nepalese around the world.
+
+                        Established in the year 2019 and licensed by Nepal Rastra Bank under foreign exchange
+                        regulation, eSewa Money Transfer strives to deliver excellent money transfer services from all
+                        across the globe to your loved ones.
+
+                        <br>
+                        <br>
+
+                      
+                    </p>
                 </div>
-                
             </div>
-            <button class="contact-btn"> CONTACT US</button>
         </div>
     </section>
+
+
+
+
+
 
 
 

@@ -40,12 +40,12 @@ $my_career = $career->getData('job_opening', NULL, NULL, 'opened_on desc');
                         <span class="bar"></span>
                     </div>
                     <ul class="nav no-search">
-                        <li class="nav-item"><a href="index.html" class="active">Home</a></li>
-                        <li class="nav-item"><a href="services.html">Services</a></li>
-                        <li class="nav-item"><a href="careers.html">Careers</a></li>
-                        <li class="nav-item"><a href="our_clients.html">Our Clients</a></li>
-                        <li class="nav-item"><a href="our_csr.html">Our CSR</a></li>
-                        <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+                        <li class="nav-item"><a href="index.php" class="active">Home</a></li>
+                        <li class="nav-item"><a href="services.php">Services</a></li>
+                        <li class="nav-item"><a href="careers.php">Careers</a></li>
+                        <li class="nav-item"><a href="our_clients.php">Our Clients</a></li>
+                        <li class="nav-item"><a href="our_csr.php">Our CSR</a></li>
+                        <li class="nav-item"><a href="contact_us.php">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>

@@ -7,12 +7,12 @@
 
     <link rel="stylesheet" href="assets/css/dsstyle.css">
     <link rel="stylesheet" href="assets/css/our_clients.css">
-    <link rel="stylesheet" href="assets/css/contact_us.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/api.js"></script>
     <link rel="shortcut icon" href="assets/img/ds_logo.png" type="image/png" size="128x128">
-    <title>DoerSoft | Our Contact</title>
+    <title>DoerSoft | Our Cients</title>
 </head>
 
 <body>
@@ -32,12 +32,12 @@
                         <span class="bar"></span>
                     </div>
                     <ul class="nav no-search">
-                        <li class="nav-item"><a href="index.html" class="active">Home</a></li>
-                        <li class="nav-item"><a href="services.html">Services</a></li>
-                        <li class="nav-item"><a href="careers.html">Careers</a></li>
-                        <li class="nav-item"><a href="our_clients.html">Our Clients</a></li>
-                        <li class="nav-item"><a href="our_csr.html">Our CSR</a></li>
-                        <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+                        <li class="nav-item"><a href="index.php" class="active">Home</a></li>
+                        <li class="nav-item"><a href="services.php">Services</a></li>
+                        <li class="nav-item"><a href="careers.php">Careers</a></li>
+                        <li class="nav-item"><a href="our_clients.php">Our Clients</a></li>
+                        <li class="nav-item"><a href="our_csr.php">Our CSR</a></li>
+                        <li class="nav-item"><a href="contact_us.php">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -47,17 +47,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 left-col">
-                    <h1>CONTACT <span class="white"> US</span></h1>
-                    <p class="subhead">Let's talk about your website or project. Send us a message and we will be in touch within one business day.
+                    <h1>OUR <span class="white"> CLIENTS</span></h1>
+                    <p class="subhead">In the new world, the companies that build, learn, and evolve the fastest will
+                        win.
                         <br><br>
-                        Got a question?<br>
-                        We are  here to help.
+                        Our people and processes are built for speed of iteration and innovation. We use world-class
+                        product engineering and lean methodologies to transform businesses, launch startups, leverage
+                        AI, and produce new paradigms of Healthcare and Education.
+
 
                     </p>
                 </div>
 
                 <div class="col-md-6 right-col">
-                    <img src="./assets/img/contact.png" alt="">
+                    <img src="./assets/img/services.svg" alt="">
                 </div>
             </div>
 
@@ -67,25 +70,72 @@
         </div>
     </section>
 
-    <section id="contact-google-map">
-        <div class="container-fluid">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7066.125069983284!2d85.32978327703854!3d27.684462031817624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x39eb19bfd910ffe9%3A0x66f431dda92f7629!2sShankhamul%2C%20Kathmandu%2044600!3m2!1d27.6853204!2d85.33171329999999!5e0!3m2!1sen!2snp!4v1626257622751!5m2!1sen!2snp"
-                height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            
-            <div class="contact-form">
-                <form action="">
-                    <h2>Get In Touch</h2>
-                    <input type="text" placeholder="Your Name*">    
-                    <input type="text" placeholder="Your Email*">    
-                    <input type="text" placeholder="Subject">    
-                    <textarea name="" id="" cols="30" rows="6" placeholder="Your Message*"></textarea>  
 
-                    <input class="contact-send-btn" type="submit" value="Send">
-                </form>
+    <section id="our_clients">
+        <div class="container">
+            <div id="clients_row" class="row">
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/ds_logo.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/cfc.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/it-olympiad-nepal.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/folio-logo.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/vos.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 mt-my">
+                    <a href="client_detail.html">
+                        <div class="partners-card">
+                            <img src="./assets/img/tu.png" alt="our_clients">
+                        </div>
+                    </a>
+                </div>
             </div>
+
+           
         </div>
     </section>
+
+    <section id="be_smart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                        Be Smart <span class="service-blue-span">Contact Us</span>
+                </div>
+                
+            </div>
+            <button class="contact-btn"> CONTACT US</button>
+        </div>
+    </section>
+
 
 
 

@@ -24,7 +24,8 @@ iframe{
     position: absolute;
     top: 45px;
     right: 20%;
-    height: 550px;
+    /* min-height: 600px; */
+    height: 600px;
     display: flex;
     flex-direction:column;
     width: 24rem;
